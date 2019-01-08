@@ -1,28 +1,27 @@
 .channel_header,
-   #footer_msgs,
-   .texty_legacy.texty_single_line_input .ql-editor,
-   .supports_custom_scrollbar #msg_input.texty_legacy .ql-editor,
-   .p-message_pane .c-message_list.c-virtual_list--scrollbar>.c-scrollbar__hider:before, .p-message_pane .c-message_list:not(.c-virtual_list--scrollbar):before
-   {
-       background-color: #2A2C2E !important;
-   }
-   .p-message_pane .c-message_list.c-virtual_list--scrollbar>.c-scrollbar__hider, .p-message_pane .c-message_list:not(.c-virtual_list--scrollbar){
-       background-color: #252525 !important;
-   }
-       .p-message_pane .c-message_list.c-virtual_list--scrollbar>.c-scrollbar__hider:before, .p-message_pane .c-message_list:not(.c-virtual_list--scrollbar):before {
-           box-shadow: 0 1px 0 rgb(30, 31, 40, 1) !important;
-       }
-       .channel_name, .c-message__body{
-/*            color: #B2B2B6 !important; */
-          color: red !important;
-       }
-       .c-message--focus:not(.c-message--highlight):not(.c-message--standalone):not(.c-message--pinned):not(.c-message--ephemeral):not(.c-message--custom_response):not(.c-message--starred):not(.c-message--sli_highlight), .c-message--hover:not(.c-message--highlight):not(.c-message--standalone):not(.c-message--pinned):not(.c-message--ephemeral):not(.c-message--custom_response):not(.c-message--starred):not(.c-message--sli_highlight), .c-message:hover:not(.c-message--highlight):not(.c-message--standalone):not(.c-message--pinned):not(.c-message--ephemeral):not(.c-message--custom_response):not(.c-message--starred):not(.c-message--sli_highlight) {
-           background-color: #3D3D41 !important;
-       }
-       .c-message--light .c-message__sender .c-message__sender_link {
-           color: #B2B2B6 !important;
-       }
-       .supports_custom_scrollbar #msg_input.texty_legacy .ql-editor,
-       .c-react_search_input .icon_search_wrapper *, .c-react_search_input .search_input_wrapper *, .c-react_search_input .icon_search_wrapper *, .c-react_search_input .search_input_wrapper *, .c-react_search_input .icon_search_wrapper *, .c-react_search_input .search_input_wrapper * {
-           color: #B2B2B6 !important;
-       }
+#footer_msgs,
+.texty_legacy.texty_single_line_input .ql-editor,
+.supports_custom_scrollbar #msg_input.texty_legacy .ql-editor,
+.p-message_pane .c-message_list.c-virtual_list--scrollbar>.c-scrollbar__hider:before, .p-message_pane .c-message_list:not(.c-virtual_list--scrollbar):before
+{
+    background-color: #2A2C2E !important;
+}
+.p-message_pane .c-message_list.c-virtual_list--scrollbar>.c-scrollbar__hider, .p-message_pane .c-message_list:not(.c-virtual_list--scrollbar){
+    background-color: #252525 !important;
+}
+.p-message_pane .c-message_list.c-virtual_list--scrollbar>.c-scrollbar__hider:before, .p-message_pane .c-message_list:not(.c-virtual_list--scrollbar):before {
+    box-shadow: 0 1px 0 rgb(30, 31, 40, 1) !important;
+}
+.channel_name, .c-message__body{
+    color: #B2B2B6 !important;
+}
+.c-message--focus:not(.c-message--highlight):not(.c-message--standalone):not(.c-message--pinned):not(.c-message--ephemeral):not(.c-message--custom_response):not(.c-message--starred):not(.c-message--sli_highlight), .c-message--hover:not(.c-message--highlight):not(.c-message--standalone):not(.c-message--pinned):not(.c-message--ephemeral):not(.c-message--custom_response):not(.c-message--starred):not(.c-message--sli_highlight), .c-message:hover:not(.c-message--highlight):not(.c-message--standalone):not(.c-message--pinned):not(.c-message--ephemeral):not(.c-message--custom_response):not(.c-message--starred):not(.c-message--sli_highlight) {
+    background-color: #3D3D41 !important;
+}
+.c-message--light .c-message__sender .c-message__sender_link {
+    color: #B2B2B6 !important;
+}
+.supports_custom_scrollbar #msg_input.texty_legacy .ql-editor,
+.c-react_search_input .icon_search_wrapper *, .c-react_search_input .search_input_wrapper *, .c-react_search_input .icon_search_wrapper *, .c-react_search_input .search_input_wrapper *, .c-react_search_input .icon_search_wrapper *, .c-react_search_input .search_input_wrapper * {
+    color: #B2B2B6 !important;
+}
