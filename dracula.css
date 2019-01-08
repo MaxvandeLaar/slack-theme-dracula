@@ -13,8 +13,7 @@
     box-shadow: 0 1px 0 rgb(30, 31, 40, 1) !important;
 }
 .channel_name, .c-message__body{
-/*     color: #B2B2B6 !important; */
-    color: blue !important;
+    color: #B2B2B6 !important;
 }
 .c-message--focus:not(.c-message--highlight):not(.c-message--standalone):not(.c-message--pinned):not(.c-message--ephemeral):not(.c-message--custom_response):not(.c-message--starred):not(.c-message--sli_highlight), .c-message--hover:not(.c-message--highlight):not(.c-message--standalone):not(.c-message--pinned):not(.c-message--ephemeral):not(.c-message--custom_response):not(.c-message--starred):not(.c-message--sli_highlight), .c-message:hover:not(.c-message--highlight):not(.c-message--standalone):not(.c-message--pinned):not(.c-message--ephemeral):not(.c-message--custom_response):not(.c-message--starred):not(.c-message--sli_highlight) {
     background-color: #3D3D41 !important;
